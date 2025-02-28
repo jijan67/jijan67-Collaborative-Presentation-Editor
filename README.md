@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Collaborative Presentation Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A real-time collaborative presentation editor that allows multiple users to create and edit presentations together in real-time. Built with React and Fabric.js, it provides a PowerPoint-like experience in the browser.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- **Real-time Collaboration**
+  - Multiple users can edit simultaneously
+  - Live updates across all connected users
+  - Role-based access control (Creator, Editor, Viewer)
 
-### `npm start`
+- **Rich Editing Tools**
+  - Text formatting with multiple fonts and sizes
+  - Drawing tools with customizable brush sizes and colors
+  - Shape insertion (rectangles, circles, arrows)
+  - Image upload and manipulation
+  - Undo/Redo functionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Presentation Features**
+  - Slide thumbnails for easy navigation
+  - Presentation mode with fullscreen view
+  - Keyboard shortcuts for navigation
+  - Slide transitions and animations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **User Interface**
+  - Intuitive drag-and-drop interface
+  - Responsive design for different screen sizes
+  - Modern and clean UI with smooth animations
+  - Real-time user presence indicators
 
-### `npm test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14 or higher)
+- npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎯 Key Features in Detail
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Text Editing
+- Multiple font families and sizes
+- Bold, italic, and underline formatting
+- Text alignment options
+- Custom text colors
 
-### `npm run eject`
+### Drawing Tools
+- Freehand drawing with adjustable brush sizes
+- Color picker for drawing tools
+- Eraser functionality
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Shape Tools
+- Rectangle insertion with customizable dimensions
+- Circle creation with adjustable radius
+- Arrow tool for pointing and connecting elements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Collaboration Features
+- Real-time cursor positions
+- User presence indicators
+- Role-based permissions
+- Live updates across all connected clients
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+## 📝 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👥 Authors
 
-### Code Splitting
+- Jijanur Rahman - *Initial work* - [https://jijanurrahman.netlify.app/](https://jijanurrahman.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🙏 Acknowledgments
 
-### Analyzing the Bundle Size
+- Hat tip to anyone whose code was used
+- Inspiration from Google Slides and Microsoft PowerPoint
+- Thanks to all contributors who helped with the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📧 Contact
 
-### Making a Progressive Web App
+Jijanur Rahman - [jijanurrahman22@gmail.com](mailto:jijanurrahman22@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://jijanurrahman-cpe.netlify.app/](https://jijanurrahman-cpe.netlify.app/)
